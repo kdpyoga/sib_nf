@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login</title>
+   <style>
+      body {
+         background-color: #1e293b;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0;
+         font-family: Arial, sans-serif;
+      }
+
+      .container {
+         background-color: white;
+         padding: 20px;
+         border-radius: 8px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         width: 350px;
+         text-align: center;
+      }
+
+      .logo img {
+         width: 50px;
+         margin-bottom: 10px;
+         border-radius: 10px;
+      }
+
+      h2 {
+         margin-bottom: 20px;
+      }
+
+      input {
+         width: 100%;
+         padding: 10px;
+         margin-bottom: 10px;
+         margin-left: -10px;
+         border: 1px solid #ccc;
+         border-radius: 10px;
+      }
+
+      .btn {
+         background-color: #374151;
+         color: white;
+         padding: 10px;
+         border: none;
+         width: 100%;
+         border-radius: 5px;
+         cursor: pointer;
+      }
+
+      .btn:hover {
+         background-color: #4b5563;
+      }
+
+      .links {
+         margin-top: 10px;
+         font-size: 14px;
+      }
+
+      .links a {
+         text-decoration: none;
+         color: red;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+      <div class="logo">
+         <img src="gambar/logokecil.png" alt="Logo">
+      </div>
+      <h2>Sugeng Rawuh, Lur!</h2>
+      <form>
+         <input type="email" placeholder="Email" required>
+         <input type="password" placeholder="Kata Sandi" required>
+         <button type="submit" class="btn">Masuk</button>
+      </form>
+      <div class="links">
+         <p><a href="#">Lupa kata sandi?</a></p>
+         <p>Belum punya akun? <a href="#">Daftar</a></p>
+      </div>
+   </div>
+</body>
+
+</html>
